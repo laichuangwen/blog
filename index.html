@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人主页</title>
-  </head>
-  <body>
-    <div>正在开发中...</div>
-    <a href="https://beian.miit.gov.cn/" target="_blank">桂ICP备2021001630号-1</a>
-  </body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .about, .portfolio, .contact {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ccc;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+        .about p, .contact p {
+            line-height: 1.6;
+        }
+        .portfolio img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a{
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>个人主页</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="about">
+        <h2>About Me</h2>
+              <p>正在开发中...</p>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <p>正在开发中...</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+            <p>正在开发中...</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; <a href="https://beian.miit.gov.cn/" target="_blank">桂ICP备2021001630号-1</a></p>
+</footer>
+
+</body>
 </html>
