@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/blog",
+  base: "/blog/",
   title: "赖创文",
   description: "bug放着放着就能自我修复",
   head: [["link", { rel: "icon", href: "/avatar.jpg" }]],
