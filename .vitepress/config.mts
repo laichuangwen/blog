@@ -4,7 +4,7 @@ export default defineConfig({
   base: "/blog/",
   title: "赖创文",
   description: "bug放着放着就能自我修复",
-  head: [["link", { rel: "icon", href: "/avatar.jpg" }]],
+  head: [["link", { rel: "icon", href: "/blog/avatar.jpg" }]],
   themeConfig: {
     lastUpdated: {
       text: "Updated at",
