@@ -20,8 +20,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           {
-            text: "k-data-grid",
-            link: "/docs/share/k-data-grid.md",
+            text: "e-virt-table",
+            link: "/docs/share/e-virt-table.md",
           },
         ],
       },
@@ -91,6 +91,7 @@ export default defineConfig({
               { text: "安装", link: "/docs/notes/nginx/安装.md" },
               { text: "日志配置", link: "/docs/notes/nginx/日志配置.md" },
               { text: "开机自启动", link: "/docs/notes/nginx/开机自启动.md" },
+              { text: "常用配置", link: "/docs/notes/nginx/常用配置.md" },
             ],
           },
           {
@@ -99,6 +100,7 @@ export default defineConfig({
             items: [
               { text: "安装", link: "/docs/notes/docker/安装.md" },
               { text: "常用指令", link: "/docs/notes/docker/常用指令.md" },
+              { text: "常用配置", link: "/docs/notes/docker/常用配置.md" },
             ],
           },
           {
